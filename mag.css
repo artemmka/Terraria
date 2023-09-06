@@ -1,0 +1,179 @@
+.png{
+	height:70%;
+	width:auto;
+	position:relative;
+	align-self: flex-start;
+}
+ul {
+	display:flex;
+	justify-content:center;
+  list-style: none;
+  margin: 0;
+  padding-left: 0; 
+  margin-top:25px; 
+  height: 80px;
+  margin-top:0;
+  padding-top:0;
+}
+.menu{
+	position: relative;
+	height:100%;
+	width:60%;
+	display:flex;
+	justify-content: center;
+	border-bottom:2px solid #19315e;
+	border-right:2px solid #19315e;
+	border-left:2px solid #19315e;
+	border-radius: 0px 0px 15px 15px;
+	background:rgba(98, 104, 209,0.7);
+}
+a {
+	cursor:url('img/cur.cur'),pointer;
+	margin-right:30px;
+	margin-left:30px;
+	border-radius: 0px 0px 15px 15px;
+  text-decoration: none; 
+  color:#fff;
+  padding:0px 20px;
+  line-height: 80px;
+  display: block; 
+  -moz-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+  text-shadow:1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+a:hover {
+  color:#fcd700;
+  transform:scale(1.2);
+}
+li {
+  float:left;
+}
+html{
+	overflow-y: auto;
+}
+html, body { 
+	cursor:url('img/cur.cur'),pointer;
+overflow: auto;   
+	margin:0;
+	background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	font-family:Comic Sans MS;
+}
+body a{
+	font-family:Comic Sans MS;
+}
+.cont {
+	text-shadow:1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	color:#fff;
+	margin-top:60px;
+	left:15%;
+	position:relative;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+	align-items:center;
+}
+.pre-b{
+	cursor:url('img/cur.cur'),pointer;
+	display:flex;
+	flex-direction:row;
+	width:70%;
+	height:500px;
+	background:rgba(98, 104, 209,0.7);
+	margin-bottom:30px;
+	border:2px solid #19315e;
+	border-radius: 15px 15px 15px 15px;
+}
+.pre-hard{
+	display:flex;
+	flex-direction:row;
+	width:70%;
+	height:500px;
+	background:rgba(98, 104, 209,0.7);
+	margin-bottom:30px;
+	border:2px solid #19315e;
+	border-radius: 15px 15px 15px 15px;
+}
+.pre-plant{
+	display:flex;
+	flex-direction:row;
+	width:70%;
+	height:500px;
+	background:rgba(98, 104, 209,0.7);
+	margin-bottom:30px;
+	border:2px solid #19315e;
+	border-radius: 15px 15px 15px 15px;
+}
+.pre-lun{
+	display:flex;
+	flex-direction:row;
+	width:70%;
+	height:500px;
+	background:rgba(98, 104, 209,0.7);
+	margin-bottom:30px;
+	border:2px solid #19315e;
+	border-radius: 15px 15px 15px 15px;
+}
+.armor{
+	position:block;
+	width:25%;
+	height:100%;
+	display:flex;
+	border-right:2px solid #19315e;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+}
+.armentity{
+	position:relative;
+	height:35%;
+	width:auto;
+}
+.wearing{
+	display:flex;
+	flex-direction:column;
+	position:block;
+	width:75%;
+	height:100%;
+}
+.weap{
+	border-bottom:2px solid #19315e;
+	position:block;
+	width:100%;
+	height:50%;
+	display:flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items:center;
+	align-content: stretch;
+}
+.acc{
+	position:block;
+	width:100%;
+	height:50%;
+	display:flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-items:center;
+}
+.entity{
+	position:relative;
+	height:40%;
+	width:auto;
+	transition: all 0.3s 0.01s ease;
+}
+.entity:hover{
+	transform: scale(1.2);
+}
+/*pre hardmode*/
+
+.tex{
+	position:relative;
+	height:100%;
+	width:100%;
+}
